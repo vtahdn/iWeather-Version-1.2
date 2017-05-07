@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE27E86A1EBF7E570093A32A /* city in white.png in Resources */ = {isa = PBXBuildFile; fileRef = DE27E8691EBF7E570093A32A /* city in white.png */; };
+		DE27E86C1EBF7E9C0093A32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE27E86B1EBF7E9C0093A32A /* Assets.xcassets */; };
 		DEF0CD7B1EBF485E006FAC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF0CD7A1EBF485E006FAC63 /* AppDelegate.swift */; };
 		DEF0CD7D1EBF485E006FAC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF0CD7C1EBF485E006FAC63 /* ViewController.swift */; };
 		DEF0CD801EBF485E006FAC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD7E1EBF485E006FAC63 /* Main.storyboard */; };
-		DEF0CD821EBF485E006FAC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD811EBF485E006FAC63 /* Assets.xcassets */; };
 		DEF0CD851EBF485E006FAC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD831EBF485E006FAC63 /* LaunchScreen.storyboard */; };
+		DEF0CD921EBF489F006FAC63 /* city icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD8D1EBF489F006FAC63 /* city icon.png */; };
+		DEF0CD931EBF489F006FAC63 /* dawn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD8E1EBF489F006FAC63 /* dawn.jpg */; };
+		DEF0CD951EBF489F006FAC63 /* night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD901EBF489F006FAC63 /* night.jpg */; };
+		DEF0CD961EBF489F006FAC63 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD911EBF489F006FAC63 /* refresh.png */; };
+		DEF0CD9E1EBF524C006FAC63 /* day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF0CD9D1EBF524C006FAC63 /* day.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE27E8691EBF7E570093A32A /* city in white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city in white.png"; sourceTree = "<group>"; };
+		DE27E86B1EBF7E9C0093A32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF0CD771EBF485E006FAC63 /* iWeather Version 1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iWeather Version 1.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF0CD7A1EBF485E006FAC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF0CD7C1EBF485E006FAC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEF0CD7F1EBF485E006FAC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DEF0CD811EBF485E006FAC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF0CD841EBF485E006FAC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEF0CD861EBF485E006FAC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF0CD8D1EBF489F006FAC63 /* city icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city icon.png"; sourceTree = "<group>"; };
+		DEF0CD8E1EBF489F006FAC63 /* dawn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dawn.jpg; sourceTree = "<group>"; };
+		DEF0CD901EBF489F006FAC63 /* night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = night.jpg; sourceTree = "<group>"; };
+		DEF0CD911EBF489F006FAC63 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		DEF0CD9D1EBF524C006FAC63 /* day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = day.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +69,25 @@
 				DEF0CD7A1EBF485E006FAC63 /* AppDelegate.swift */,
 				DEF0CD7C1EBF485E006FAC63 /* ViewController.swift */,
 				DEF0CD7E1EBF485E006FAC63 /* Main.storyboard */,
-				DEF0CD811EBF485E006FAC63 /* Assets.xcassets */,
 				DEF0CD831EBF485E006FAC63 /* LaunchScreen.storyboard */,
 				DEF0CD861EBF485E006FAC63 /* Info.plist */,
+				DE27E86B1EBF7E9C0093A32A /* Assets.xcassets */,
+				DEF0CD8C1EBF4873006FAC63 /* Resource */,
 			);
 			path = "iWeather Version 1.2";
+			sourceTree = "<group>";
+		};
+		DEF0CD8C1EBF4873006FAC63 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE27E8691EBF7E570093A32A /* city in white.png */,
+				DEF0CD9D1EBF524C006FAC63 /* day.jpg */,
+				DEF0CD8D1EBF489F006FAC63 /* city icon.png */,
+				DEF0CD8E1EBF489F006FAC63 /* dawn.jpg */,
+				DEF0CD901EBF489F006FAC63 /* night.jpg */,
+				DEF0CD911EBF489F006FAC63 /* refresh.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +150,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF0CD851EBF485E006FAC63 /* LaunchScreen.storyboard in Resources */,
-				DEF0CD821EBF485E006FAC63 /* Assets.xcassets in Resources */,
+				DEF0CD931EBF489F006FAC63 /* dawn.jpg in Resources */,
+				DEF0CD921EBF489F006FAC63 /* city icon.png in Resources */,
+				DEF0CD9E1EBF524C006FAC63 /* day.jpg in Resources */,
+				DE27E86A1EBF7E570093A32A /* city in white.png in Resources */,
+				DEF0CD961EBF489F006FAC63 /* refresh.png in Resources */,
 				DEF0CD801EBF485E006FAC63 /* Main.storyboard in Resources */,
+				DE27E86C1EBF7E9C0093A32A /* Assets.xcassets in Resources */,
+				DEF0CD951EBF489F006FAC63 /* night.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				DEF0CD8B1EBF485E006FAC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
